@@ -6,4 +6,4 @@ RUN npm install
 COPY . .
 RUN chown -R appuser:appgroup /app
 USER appuser
-CMD [ "npm", "start", "--", "--port=8080" ]
+CMD [ "npm", "start" ]
